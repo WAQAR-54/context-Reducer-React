@@ -3,10 +3,11 @@ import Child from './Child';
 
 
 function Parent(props) {
+  
   return (
     <div >
-      Parent
-      <Child num={props.num}></Child>
+       Parent 
+      <Child ></Child>
     </div>
   );
 }
