@@ -6,9 +6,10 @@ import ValueContext from './ValueContext.js';
 
 function App() {
 //let [number , setNumber]=useState(45);
- let Val=81;
+let value  = useState(48); 
+//let Val=81;
   return (
-    <ValueContext.Provider value={Val}  >
+    <ValueContext.Provider value={value}  >
       <div >
           Hello Word
 
